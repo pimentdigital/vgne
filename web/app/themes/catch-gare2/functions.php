@@ -51,3 +51,31 @@ function catchresponsive_archive_content_image() {
         <?php
     }
 }
+
+function catchresponsive_entry_meta() {
+    echo '<p class="entry-meta">';
+
+    $time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+
+    if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+        $time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+    }
+
+    $time_string = sprintf( $time_string,
+        esc_attr( get_the_date( 'c' ) ),
+        esc_html( get_the_date() ),
+        esc_attr( get_the_modified_date( 'c' ) ),
+        esc_html( get_the_modified_date() )
+    );
+
+    printf( '<span class="posted-on">%1$s<a href="%2$s" rel="bookmark">%3$s</a></span>',
+        sprintf( _x( '<span class="screen-reader-text">Posted on</span>', 'Used before publish date.', 'catch-responsive' ) ),
+        esc_url( get_permalink() ),
+        $time_string
+    );
+
+
+    edit_post_link( esc_html__( 'Edit', 'catch-responsive' ), '<span class="edit-link">', '</span>' );
+
+    echo '</p><!-- .entry-meta -->';
+}

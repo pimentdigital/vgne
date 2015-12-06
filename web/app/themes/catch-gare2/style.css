@@ -6,14 +6,32 @@ Version: 1.0
 Updated: 2015-11-19 12:08
 */
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,200,800);
+
+h1{
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+a{
+    color: #bc6804;
+}
+
+a:hover{
+    color: #bc6804;
+}
+
 .site{
     width: auto;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
 .site-content{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.site-title{
+    font-weight: 500;
 }
 
 .current_page_item a{
@@ -40,7 +58,7 @@ Updated: 2015-11-19 12:08
     background-position: top center;
     background-attachment: fixed;
     background-size: 100%;
-    height: 400px;
+    height: 340px;
 }
 
 #masthead .wrapper{
@@ -63,6 +81,10 @@ Updated: 2015-11-19 12:08
     float: none;
 }
 
+.page-header{
+    padding: 0;
+}
+
 .nav-primary .menu li {
     text-align: center;
 }
@@ -79,12 +101,14 @@ input#s {
     display: block;
 }
 
-.home .post{
+.home .post, .category .post{
     width: 47%;
     float: left;
     background-color: #fafafa;
     border: 1px solid #ebebeb;
     margin: 0 1em 1em 0;
+    height: 480px;
+    padding: 0;
 }
 
 .post .archive-post-wrap{
@@ -93,16 +117,22 @@ input#s {
 }
 
 .post .archive-post-wrap .featured-image {
-    max-height: 150px;
+    max-height: 170px;
     overflow: hidden;
     display: inherit!important;
     float: none!important;
     max-width: inherit!important;
     width: auto!important;
+    margin-bottom: 0;
 }
-/*todo: make edge to edge the featured image */
+
+.post .archive-post-wrap .featured-image a img{
+    min-width: 100%
+}
+
 .post .archive-post-wrap .entry-container{
     width: auto!important;
+    padding: 20px;
 }
 
 .page-header .page-title{
@@ -114,8 +144,38 @@ input#s {
 }
 
 .sidebar-header-right{
-    display: none;
+    float: none;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
 }
+
+.sidebar-header-right .widget-wrap{
+    float: none;
+}
+
 .twitter-timeline{
     height: 800px!important;
+}
+
+#supplementary{
+    background-color: white;
+    text-align: center;
+}
+
+#supplementary .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mc4wp-form-basic, .mc4wp-form-theme {
+    margin: 0!important;
+}
+
+.mc4wp-form-basic p{
+    margin-bottom: 5px!important;
+}
+
+.mc4wp-form-basic p label{
+    font-size: 1em!important;
 }
