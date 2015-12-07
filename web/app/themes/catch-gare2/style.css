@@ -53,6 +53,7 @@ a:hover{
 }
 
 #masthead{
+    background-color: white;
     background-image: url('http://vivregaresnordest.dev/app/uploads/2015/11/gares3.png');
     background-repeat: no-repeat;
     background-position: top center;
@@ -101,6 +102,10 @@ input#s {
     display: block;
 }
 
+.hentry{
+    padding: 0;
+}
+
 .home .post, .category .post{
     width: 47%;
     float: left;
@@ -110,6 +115,21 @@ input#s {
     height: 480px;
     padding: 0;
 }
+
+.single .title{
+    float: right;
+    width: 78%
+}
+
+.single .entry-header{
+    overflow: auto;
+}
+
+
+.single .entry-header img{
+    float: left;
+}
+
 
 .post .archive-post-wrap{
     height: 350px;
