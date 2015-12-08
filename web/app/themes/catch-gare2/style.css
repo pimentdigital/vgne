@@ -39,7 +39,7 @@ a:hover{
 }
 
 .nav-primary {
-    background-color: #dadada;
+    background-color: transparent;
 }
 
 .nav-primary .wrapper{
@@ -109,7 +109,7 @@ input#s {
 .home .post, .category .post{
     width: 47%;
     float: left;
-    background-color: #fafafa;
+    background-color: #fffefe;
     border: 1px solid #ebebeb;
     margin: 0 1em 1em 0;
     height: 480px;

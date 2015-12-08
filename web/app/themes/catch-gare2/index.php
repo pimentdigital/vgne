@@ -48,6 +48,8 @@ get_header(); ?>
 			<?php get_template_part( 'no-results', 'index' ); ?>
 
 		<?php endif; ?>
+
+        <h1>Calendrier</h1>
         <?php echo do_shortcode('[calendar id="808"]'); ?>
 
     </main><!-- #main -->
