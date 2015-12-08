@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1037be27901ff42cea7169380e567567",
-    "content-hash": "2cc8779be7cf95aea2cf6458cb8654d4",
+    "hash": "0f1a56cad7bed1bfd810d6709c665592",
+    "content-hash": "d08968b4a41d83b48f9401a8778f87da",
     "packages": [
         {
             "name": "composer/installers",
@@ -303,15 +303,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.8.3",
+            "version": "4.9",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.8.3"
+                "reference": "tags/4.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.8.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -363,15 +363,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/3.0.3"
+                "reference": "tags/3.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.0.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
