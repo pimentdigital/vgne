@@ -10,6 +10,13 @@ Updated: 2015-11-19 12:08
 
 h1{
     font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 500;
 }
 
 a{
@@ -17,7 +24,7 @@ a{
 }
 
 a:hover{
-    color: #bc6804;
+    color: #bc6804!important;
 }
 
 .site{
@@ -32,6 +39,11 @@ a:hover{
 
 .site-title{
     font-weight: 500;
+}
+
+.sidebar-primary{
+    padding-right: 0;
+    padding-top: 0;
 }
 
 .current_page_item a{
@@ -98,6 +110,11 @@ input#s {
     line-height: 1.5;
 }
 
+.archive-post-wrap .entry-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .blog .format-aside .entry-title{
     display: block;
 }
@@ -112,7 +129,7 @@ input#s {
     background-color: #fffefe;
     border: 1px solid #ebebeb;
     margin: 0 1em 1em 0;
-    height: 480px;
+    height: 420px;
     padding: 0;
 }
 
@@ -121,15 +138,21 @@ input#s {
     width: 78%
 }
 
+.entry-summary{
+    font-size: 12px;
+}
+
 .single .entry-header{
     overflow: auto;
 }
-
 
 .single .entry-header img{
     float: left;
 }
 
+.widget-title{
+    /*color: #1C5275;*/
+}
 
 .post .archive-post-wrap{
     height: 350px;
@@ -198,4 +221,8 @@ input#s {
 
 .mc4wp-form-basic p label{
     font-size: 1em!important;
+}
+
+.widget_gce_widget{
+    display: none;
 }

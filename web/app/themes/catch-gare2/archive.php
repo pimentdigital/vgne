@@ -72,10 +72,6 @@ get_header(); ?>
 					?>
 				</h1>
 
-				<p>Association de quartier, citoyenne et apolitique.<br>
-					Pour l’amélioration du quartier des Gares du Nord et de l’Est
-				</p>
-
 				<?php
 					// Show an optional term description.
 					$term_description = term_description();

@@ -20,13 +20,15 @@ get_header(); ?>
 
 			<header class="page-header">
 				<h1 class="page-title">
-					<?php _e( 'Actualités', 'catch-responsive' ); ?>
+					<?php _e( 'Bienvenue sur le site de l’association Vivre Gare du Nord et Est.', 'catch-responsive' ); ?>
 				</h1>
 			</header>
 
-            <p>Association de quartier, citoyenne et apolitique.<br>
-                Pour l’amélioration du quartier des Gares du Nord et de l’Est
+            <p>
+				Association de quartier, citoyenne et apolitique.<br>Pour l’amélioration du quartier des Gares du Nord et de l’Est
             </p>
+
+			<h1>Nos dernières publications</h1>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>

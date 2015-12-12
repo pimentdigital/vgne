@@ -16,10 +16,6 @@ get_header(); ?>
 
 	<main id="main" class="site-main" role="main">
 
-		<p>Association de quartier, citoyenne et apolitique.<br>
-			Pour l’amélioration du quartier des Gares du Nord et de l’Est
-		</p>
-
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'page' ); ?>
