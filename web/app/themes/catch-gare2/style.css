@@ -12,6 +12,16 @@ h1{
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
+    overflow: auto;
+}
+
+h1 span {
+    float: left;
+    padding: 3px 7px;
+    background: #3c4043;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
 }
 
 h4{
@@ -39,6 +49,15 @@ a:hover{
 
 .site-title{
     font-weight: 500;
+}
+
+.widget-title{
+    float:left;
+    padding: 3px 7px;
+    background: #3c4043;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
 }
 
 .sidebar-primary{
@@ -150,9 +169,6 @@ input#s {
     float: left;
 }
 
-.widget-title{
-    /*color: #1C5275;*/
-}
 
 .post .archive-post-wrap{
     height: 350px;

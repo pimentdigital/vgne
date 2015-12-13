@@ -28,7 +28,7 @@ get_header(); ?>
 				Association de quartier, citoyenne et apolitique.<br>Pour l’amélioration du quartier des Gares du Nord et de l’Est
             </p>
 
-			<h1>Nos dernières publications</h1>
+			<h1><span>Nos dernières publications</span></h1>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -51,7 +51,7 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-        <h1>Calendrier</h1>
+        <h1><span>Calendrier</span></h1>
         <?php echo do_shortcode('[calendar id="808"]'); ?>
 
     </main><!-- #main -->
