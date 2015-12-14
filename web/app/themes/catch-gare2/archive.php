@@ -81,6 +81,8 @@ get_header(); ?>
 				?>
 			</header><!-- .page-header -->
 
+			<h1><span>Dernières publications</span></h1>
+
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
