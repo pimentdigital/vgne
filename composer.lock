@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f1a56cad7bed1bfd810d6709c665592",
-    "content-hash": "d08968b4a41d83b48f9401a8778f87da",
+    "hash": "925555535d286d38d64f2b83387682da",
+    "content-hash": "572ab68eea88e1cededc795e093d50f9",
     "packages": [
         {
             "name": "composer/installers",
@@ -303,15 +303,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.9",
+            "version": "4.9.1.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.9"
+                "reference": "tags/4.9.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -343,15 +343,15 @@
         },
         {
             "name": "wpackagist-plugin/google-calendar-events",
-            "version": "3.0.8",
+            "version": "3.0.9",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-calendar-events/",
-                "reference": "tags/3.0.8"
+                "reference": "tags/3.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.3.0.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.3.0.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -363,15 +363,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "3.0.4",
+            "version": "3.0.9",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.0.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -483,15 +483,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-super-cache",
-            "version": "1.4.6",
+            "version": "1.4.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-super-cache/",
-                "reference": "tags/1.4.6"
+                "reference": "tags/1.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.4.7.zip",
                 "reference": null,
                 "shasum": null
             },
