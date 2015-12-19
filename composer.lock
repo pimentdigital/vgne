@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13d052d805f62dcf87ce1fdf4ea13c0f",
-    "content-hash": "426a5f25339e33787b143f8c05a847de",
+    "hash": "b269c2917557ed6bac9b6de81d7df6f4",
+    "content-hash": "a28cb03055fe8993ce8abd0be09389b8",
     "packages": [
         {
             "name": "composer/installers",
@@ -440,6 +440,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shareaholic/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-lightbox",
+            "version": "2.5.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/simple-lightbox/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-lightbox.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-lightbox/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
