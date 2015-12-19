@@ -43,7 +43,7 @@
 		<footer class="entry-footer">
 			<?php catchresponsive_tag_category(); ?>
             <br/><br/>
-            <h1><a href="/contact">Nous écrire</a></h1>
+            <h1 class="contact"><a href="/contact">Nous écrire</a></h1>
 		</footer><!-- .entry-footer -->
 	</div><!-- .entry-container -->
 </article><!-- #post-## -->

@@ -8,6 +8,18 @@ Updated: 2015-11-19 12:08
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,200,800);
 
+a{
+    color: #bc6804;
+}
+
+a:hover{
+    color: #bc6804!important;
+}
+
+p{
+    text-align: justify;
+}
+
 h1{
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 22px;
@@ -24,21 +36,20 @@ h1 span {
     font-size: 14px;
 }
 
+h1.contact{
+    padding: 0.5em;
+    background: #bc6804;
+    float: left;
+    display: block;
+}
+
+h1.contact a{
+    color: white!important;
+}
+
 h4{
     font-size: 18px;
     font-weight: 500;
-}
-
-p{
-    text-align: justify;
-}
-
-a{
-    color: #bc6804;
-}
-
-a:hover{
-    color: #bc6804!important;
 }
 
 .site{
