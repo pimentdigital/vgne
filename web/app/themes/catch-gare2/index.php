@@ -54,7 +54,14 @@ get_header(); ?>
             <article class="post">
                 <div class="archive-post-wrap">
                     <div class="entry-container">
-                        hello
+                        <header class="entry-header">
+                            <h1 class="entry-title">Plus des publications</h1>
+                        </header>
+                        <div class="entry-content">
+                            <ul>
+                                <?php wp_list_categories('title_li=&show_count=1'); ?>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </article>
