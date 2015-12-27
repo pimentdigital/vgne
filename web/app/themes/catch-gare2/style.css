@@ -168,8 +168,9 @@ input#s {
 }
 
 .single .title{
-    float: right;
-    width: 78%
+    float: left;
+    width: 78%;
+    margin-left: 3%;
 }
 
 .entry-summary{

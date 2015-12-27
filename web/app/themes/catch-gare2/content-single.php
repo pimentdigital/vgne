@@ -19,12 +19,13 @@
 
 	<div class="entry-container">
 		<header class="entry-header">
-            <div class="title">
+			<?php the_post_thumbnail( 'thumbnail' ); ?>
+
+			<div class="title">
                 <h1 class="entry-title"><?php the_title(); ?></h1>
                 <?php catchresponsive_entry_meta(); ?>
                 <?php echo do_shortcode('[shareaholic app="share_buttons" id="523823"]'); ?>
             </div>
-            <?php the_post_thumbnail( 'thumbnail' ); ?>
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
