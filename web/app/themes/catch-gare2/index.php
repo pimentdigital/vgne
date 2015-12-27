@@ -59,7 +59,7 @@ get_header(); ?>
                         </header>
                         <div class="entry-content">
                             <ul>
-                                <?php wp_list_categories('title_li=&show_count=1'); ?>
+                                <?php wp_list_categories('title_li=&show_count=1&exclude=1'); ?>
                             </ul>
                         </div>
                     </div>

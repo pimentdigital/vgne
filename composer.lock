@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "181f9916b6c7f0cf758ef1ea8227eb31",
-    "content-hash": "3f357ba6adfe24f5a59da4cedac7f108",
+    "hash": "0c7b3f966eda1d2c65c2ec89bf5f9948",
+    "content-hash": "d7efc7c6b949f33f3a7bfb61413d7336",
     "packages": [
         {
             "name": "composer/installers",
@@ -282,6 +282,26 @@
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
+            "name": "wpackagist-plugin/document-gallery",
+            "version": "4.1.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/document-gallery/",
+                "reference": "tags/4.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/document-gallery.4.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/document-gallery/"
+        },
+        {
             "name": "wpackagist-plugin/facebook-page-feed-graph-api",
             "version": "1.5.2",
             "source": {
@@ -463,15 +483,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.0.5",
+            "version": "3.0.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.0.5"
+                "reference": "tags/3.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.7.zip",
                 "reference": null,
                 "shasum": null
             },
