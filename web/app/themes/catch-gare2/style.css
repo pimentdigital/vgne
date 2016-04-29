@@ -1,19 +1,20 @@
 /*
-Theme Name: Catch Gare
+Theme Name: VGNE Wordpress
 Template: catch-responsive
 Author: Piment Digital
+Author URI: http://piment.digital
 Version: 1.0
-Updated: 2015-11-19 12:08
+Updated: 2016-01-08 12:08
 */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,200,800);
 
 a{
-    color: #bc6804;
+    color: #e4bc00;
 }
 
 a:hover{
-    color: #bc6804!important;
+    color: #e4bc00!important;
 }
 
 p{
@@ -38,7 +39,7 @@ h1 span {
 
 h1.contact{
     padding: 0.5em;
-    background: #bc6804;
+    background: #e4bc00;
     float: left;
     display: block;
 }
@@ -100,7 +101,7 @@ h4{
 
 #masthead{
     background-color: white;
-    background-image: url('http://vivregaresnord-est.fr/wp-content/uploads/2015/11/gares3.png');
+    background-image: url('http://vivregaresnord-est.fr/wp-content/uploads/2016/04/gares4.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
